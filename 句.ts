@@ -3,7 +3,6 @@ namespace 句 {
 
     export function 编(块: 布尔字节.输入块, 式: 句式, 输出: string[]) {
         式.forEach(可选词 => {
-            console.log(可选词)
             输出.push(可选词[不随机.生成编号(块, 可选词.length)])
         })
     }
